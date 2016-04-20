@@ -6,7 +6,7 @@
 #include <arpa/inet.h>
 #include <netinet/in.h>
 #include <sys/socket.h>
-typedef enum {false,true}bool;
+//typedef enum {false,true}bool;
 int main() 
 { 
     bool flag;
