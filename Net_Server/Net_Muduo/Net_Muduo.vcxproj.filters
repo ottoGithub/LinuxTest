@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Base">
+      <UniqueIdentifier>{4a689907-348f-4f1a-a1f5-96e61f7b4872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Net">
+      <UniqueIdentifier>{88970731-abf8-4471-a867-e03e3352a92d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Code\Base\Common.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Net\EventLoop.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Net\Channel.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Net\IPoller.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Net\PollPoller.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Code\Net\EventLoop.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Net\Channel.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Net\IPoller.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Net\PollPoller.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
